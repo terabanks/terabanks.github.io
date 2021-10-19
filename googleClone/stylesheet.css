@@ -1,0 +1,267 @@
+/*For every element in the html file*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Accounts for border/padding when considering height/width*/
+}
+
+body{
+    font-family: sans-serif;
+    color: rgb(77, 73, 73);
+    height: 100vh; /*Fill entire screen height*/
+    display: flex; /*flex-box*/
+    flex-direction: column;
+}
+
+/*Removed underlines from all links*/
+a {
+    text-decoration: none;
+}
+
+/*Removed bullet points from all list items*/
+li {
+    list-style-type: none;
+}    
+
+/*.....Header Content.....*/
+header{
+    display: flex;
+    height: 60px;
+}
+
+/* Navigation*/
+
+.navbar{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+}
+.left-nav{
+    float: left;
+    padding: 5px;
+    font-size: 11px;
+}
+.right-nav{
+    float: right;
+    padding: 5px;
+    font-size: 11px;
+}
+
+.navbar ul li{
+    margin-left: 10px;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 33px;
+}
+.avatar:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+.menu-icon{
+    width: 35px;
+    
+}
+.menu-icon:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/*.....Main Content.....*/
+.main-container{
+    text-align: center;
+    padding-top:8%;
+}
+
+/*Google logo*/
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 70px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: -0.11em;
+}
+.blue {
+    color: rgb(30, 88, 247)
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: rgb(62, 190, 62);
+}
+.google-e {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+    color: red;
+}
+
+/*.google-logo{
+    width: 15%;
+    margin: auto;
+}*/
+
+/*Search Container*/
+.search-container{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid rgb(212, 211, 211);
+    width: 35vw;
+    height: 30px;
+    margin: auto;
+}
+.material-icons{ /*Search Icon -Magnifying Glass*/
+    margin: 1px;
+    color:gray;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.search-field{
+    width: 87%;
+    height: auto;
+    border: none;  /*Remove gray (border) indication of search field*/
+    outline: none;  /*Remove blue outline when search field is active*/
+}
+.mic-btn{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+.buttons-container{
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 18px;
+}
+
+.google-search-btn{
+    margin: auto; 
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgba(211, 211, 211, 0);
+    background-color: rgba(211, 211, 211, 0.200);
+    box-shadow: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.feeling-lucky-btn{
+    margin: auto; 
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgba(211, 211, 211, 0);
+    background-color: rgba(211, 211, 211, 0.200);
+    box-shadow: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.btn-animation:hover {
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid;
+    border-color:rgba(177, 175, 175, 0.329);
+}
+
+/*Behind the Scenes Section*/
+.behind-scenes-container{
+    text-align: center;
+    padding-bottom: 16%;
+}
+.behind-scenes-logo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    vertical-align: middle;
+}
+.behind-scenes-text{
+    font-size: 10px;
+    color: rgb(0, 68, 255);
+    margin: auto;
+    vertical-align: middle;
+}
+
+/*Footer*/
+.footerContainer{
+    background-color: rgb(228, 227, 227);
+    text-align: center;
+    line-height: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer-left-nav{
+    float: left;
+    padding-right: 17px;
+    padding-left: 4px;
+    font-size: 11px;
+    text-decoration: none;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(77, 73, 73)
+}
+.footer-center-nav{
+    margin: auto;
+    font-size: 11px;
+    width: 50px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(77, 73, 73)
+}
+.fa-envira{
+    color: green; /*Font Awesome Leaf*/
+    
+}
+.footer-right-nav{
+    float: right;
+    width: 50px;
+    padding-right: 15px;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(77, 73, 73)
+}
+
+@media (max-width: 800px) {
+    .search-bar{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+    }
+
+}
+@media (max-width: 621px) {
+    .search-bar{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Portfolio Webpage</title>
+    <meta charset="UTF-8">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </head>
+<body>
+  <div class="container">
+    <section id="welcome-section">  
+      <h1>Hello, I am Tera</h1>
+    </section>
+    <section id="projects">
+      <div class="project-tile">
+      <img src="https://thepotteryfactory.com/brookfield/wp-content/uploads/acrylic-pour-2-826x1024.jpg" class="project-tile" alt="acrylic paint poured onto canvas">
+      <img src="https://mymodernmet.com/wp/wp-content/uploads/2018/10/fluid-art-2-300x200.jpg" class="project-tile" alt="acrylic paint pured onto canvas">
+      <img src="https://arts.kingsporttn.gov/wp-content/uploads/sites/11/2019/06/Beach-pour-1.jpg" class="project-tile" alt="acrylic paint pured onto canvas"><br>
+      <img src="https://i0.wp.com/www.cleverpedia.com/wp-content/uploads/2018/01/acrylic-pour-featured.jpg?w=810" class="project-tile" alt="acrylic paint pured onto canvas">
+      <img src="https://images.saymedia-content.com/.image/t_share/MTc0NDc1ODA4MDM3OTM4NTM2/acrylic-pouring-for-beginners.jpg" class="project-tile" alt="acrylic paint pured onto canvas">
+      <img src="https://ih1.redbubble.net/image.942329198.9131/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="project-tile" alt="acrylic paint pured onto canvas">
+      </div> 
+	</section>
+
+      <div id="header-nav-div">
+        <nav id="nav-bar">
+          <a href="#gallery" class="nav-link">About</a>
+          <a href="#design" class="nav-link">Work</a>
+          <a href="#pricing" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </section>
+  </div>
+  <main>
+     
+    
+    <!--<form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Enter your email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        <input id="submit" type="submit"><br>
+      </form>-->
+  </main>
+  <footer></footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<figure>
+         <a href="https://codepen.io/terabanks/pen/dyNgjbE" id="captions"</a>
+          <img src="https://thepotteryfactory.com/brookfield/wp-content/uploads/acrylic-pour-2-826x1024.jpg" class="project-tile" alt="acrylic paint poured onto canvas">
+          <figcaption>Tribute Page</figcaption>
+        </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
